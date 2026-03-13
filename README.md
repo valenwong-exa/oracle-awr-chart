@@ -7,9 +7,10 @@
 <a name="中文"></a>
 ## 中文
 
-**AWRCRT** 是一个用于生成可视化 Oracle AWR 报告的工具。它通过 SQL*Plus 读取 Oracle AWR 历史数据 (`dba_hist_*` 视图)，并生成包含交互式图表 (基于 Chart.js) 的 HTML 报告。
+**AWRCRT** 是一个用于生成可视化 Oracle AWR 报告的工具。它通过 SQL*Plus 读取 Oracle AWR 历史数据 (`dba_hist_*` 视图)，并生成包含交互式图表 (基于 Chart.js) 的 HTML 报告。它是比较老的项目，现在通过vibe coding更新后，发布在github。
 
 相比传统的文本版 AWR 报告，AWRCRT 提供了更加直观的性能趋势分析，涵盖了 CPU、IO、Wait Events、Latch、Top SQL 等多个维度的可视化展示。
+它应该在11.2之上的non-CDB环境工作正常，有一个forpdb版本，稍后更新。目前发现使用新版本的chart.js后，加载速度比以前慢，需要耐心等待浏览器响应。
 
 ### 主要功能
 
