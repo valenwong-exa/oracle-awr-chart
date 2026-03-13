@@ -103,7 +103,7 @@ MIT License
 ## English
 
 **AWRCRT** is a tool for generating visual Oracle AWR reports. It reads Oracle AWR historical data (`dba_hist_*` views) via SQL*Plus and generates HTML reports containing interactive charts (based on Chart.js).
-
+It should work fine in 11.2, 12.2 ,19c none-CDB, there was a pdb vervsion, but still working on it.  Comparing to older version , new chart.js seems make brower run slower, so just needs few seconds to wait for brower response.
 Compared to traditional text-based AWR reports, AWRCRT provides more intuitive performance trend analysis, covering multiple dimensions such as CPU, IO, Wait Events, Latch, Top SQL, and more.
 
 ### Key Features
